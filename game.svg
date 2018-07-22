@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="800px" height="600px"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:a="http://www.adobe.com/svg10-extensions" a:timeline="independent"
+     onload="top.load(evt)">
+
+  <defs>
+
+    <clipPath id="gameareaclip">
+      <rect x="20" y="20" width="600" height="560"/>
+    </clipPath>
+
+<linearGradient id="color_rad"><stop offset="0" style= "stop-color: Maroon"/>
+<stop offset=".8" style= "stop-color: #DC143C"/><stop offset="1" style= "stop-color:red"/> </linearGradient>
+
+
+	<g id="stick_figure" transform="scale(.2186,.2452)">
+<text id="player_name" x="40" y="0" style="font-size:50px">Anonymous</text>
+<path d="M103.026,171.051c-0.294-0.84-8.385-20.305-0.807-38.894c4.381-10.739,13.02-18.881,25.676-24.194
+				c20.557-8.627,18.951-28.104,18.873-28.928c-0.011-0.093-0.017-0.198-0.019-0.291l-0.397-25.915
+				c-28.891,18.922-53.021,15.088-68.525,8.184c-17.741-7.899-27.938-21.146-28.363-21.705c-1.169-1.539-0.869-3.735,0.67-4.904
+				c1.539-1.167,3.731-0.869,4.901,0.666l0,0c0.095,0.125,9.699,12.532,25.884,19.657c21.417,9.427,43.875,5.609,66.749-11.348
+				c1.053-0.782,2.455-0.909,3.634-0.326c1.177,0.581,1.931,1.771,1.95,3.084l0.498,32.407c0.166,2.47,1.041,25.724-23.146,35.874
+				c-36.724,15.416-21.78,52.354-21.126,53.918c0.745,1.78-0.094,3.832-1.874,4.58C107.161,173.103,104.126,174.192,103.026,171.051
+				z"/>
+			<path d="M74.539,41.873c-5.388-0.749-9.373-5.136-10.056-10.275L2.819,19.375c-1.896-0.376-3.128-2.218-2.752-4.114
+				c0.375-1.896,2.22-3.122,4.114-2.753l64.478,12.781c1.839,0.365,3.065,2.115,2.778,3.968c-0.42,2.722,1.448,5.296,4.171,5.698
+				c4.142,0.611,5.399-2.871,5.698-4.17c0.569-2.469,3.265-3.092,4.209-2.884l24.486,5.371c1.889,0.414,3.083,2.281,2.669,4.169
+				c-0.415,1.889-2.276,3.087-4.169,2.669l-21.41-4.696C86.25,37.091,83.125,43.066,74.539,41.873z"/>
+			<path d="M125.751,101.192c-1.935,0-3.5-1.566-3.5-3.5v-26c0-1.933,1.565-3.5,3.5-3.5c1.934,0,3.5,1.567,3.5,3.5v26
+				C129.251,99.625,127.685,101.192,125.751,101.192z"/>
+			<path d="M176.968,170.815l-37-48.5c-1.172-1.537-0.877-3.732,0.66-4.906c1.538-1.174,3.731-0.877,4.905,0.66l37,48.5
+				c1.173,1.537,0.916,3.787-0.659,4.904C179.626,173.067,177.656,171.717,176.968,170.815z"/>
+		<path d="M130.224,43.18c9.146,0,16.582-7.438,16.582-16.582c0-9.146-7.438-16.585-16.582-16.585s-16.584,7.438-16.584,16.585
+			C113.64,35.742,121.078,43.18,130.224,43.18z M130.224,17.194c5.185,0,9.402,4.219,9.402,9.404c0,5.185-4.22,9.401-9.402,9.401
+			c-5.187,0-9.404-4.217-9.404-9.401C120.819,21.413,125.038,17.194,130.224,17.194z"/>
+</g>
+
+	
+    <g id="monster">
+<g transform="scale(0.0785,0.0785)">
+      <path d="M511.513,493.352l-8.038-26.148c-22.162-88.674-97.26-159.977-185.694-179.794l15.957-47.883
+			c3.903-11.679-7.246-22.852-18.943-18.943l-35.121,11.702l11.702-35.121c3.904-11.681-7.236-22.845-18.943-18.943L224.55,194.18
+			C204.734,105.746,133.43,30.648,44.756,8.486L18.608,0.447c-6.48-1.624-13.34,1.302-16.66,7.139
+			c-3.32,5.866-2.326,13.223,2.443,17.977l23.193,23.178c29.299,29.313,29.299,55.439,0,84.737c-0.011,0.011-0.015,0.029-0.026,0.04
+			c-5.088,5.101-6.106,15.008,0.026,21.141l0.077,0.077c0.009,0.009,0.016,0.018,0.026,0.027l24.063,24.075
+			c15.856,15.856,26.125,34.155,28.934,51.532c2.882,17.977-2.268,33.717-15.344,46.793c-0.196,0.196-0.267,0.468-0.449,0.673
+			c-4.961,5.529-5.081,14.977,0.449,20.508c14.759,14.759,24.969,37.11,27.31,59.782c1.206,11.678,0.324,22.554-2.503,32.159
+			c-1.708,2.893,6.187-10.454-16.628,28.199c-7.009,13.106,7.379,27.765,20.71,19.802l27.454-16.472
+			c9.597-2.819,20.466-3.697,32.153-2.499c22.672,2.341,45.023,12.55,59.782,27.31c9.788,9.788,24.197-1.034,21.181,0
+			c29.167-29.138,72.948-11.804,101.325,16.573l21.181,21.181c6.032,6.032,15.893,5.245,21.137,0.029
+			c0.013-0.013,0.031-0.016,0.044-0.029c29.328-29.299,55.453-29.27,84.723,0l23.193,23.193
+			C497.09,518.262,515.202,508.045,511.513,493.352z"/></g>
+<animateTransform id="first" type="rotate" attributeName="transform" attributeType="XML" begin="0s;second.end+.5s" dur="1s" from="0" to="15" />
+<animateTransform id="second" type="rotate" attributeName="transform" attributeType="XML" begin="first.end" dur="2s" from="15" to="0"/>
+    </g>
+
+	<g id="heart" transform="scale(.0625,.0696)">
+<path  d="M 297.29747,550.86823 C 283.52243,535.43191 249.1268,505.33855 220.86277,483.99412 C 137.11867,420.75228 125.72108,411.5999 91.719238,380.29088 C 29.03471,322.57071 2.413622,264.58086 2.5048478,185.95124 C 2.5493594,147.56739 5.1656152,132.77929 15.914734,110.15398 C 34.151433,71.768267 61.014996,43.244667 95.360052,25.799457 C 119.68545,13.443675 131.6827,7.9542046 172.30448,7.7296236 C 214.79777,7.4947896 223.74311,12.449347 248.73919,26.181459 C 279.1637,42.895777 310.47909,78.617167 316.95242,103.99205 L 320.95052,119.66445 L 330.81015,98.079942 C 386.52632,-23.892986 564.40851,-22.06811 626.31244,101.11153 C 645.95011,140.18758 648.10608,223.6247 630.69256,270.6244 C 607.97729,331.93377 565.31255,378.67493 466.68622,450.30098 C 402.0054,497.27462 328.80148,568.34684 323.70555,578.32901 C 317.79007,589.91654 323.42339,580.14491 297.29747,550.86823 z" id="path2417" style="fill:#ff0000"/>
+	</g>
+    <g id="bullet">
+      <circle cx="5" cy="5" r="5" style="fill:red"/>
+      <circle cx="6" cy="3" r="1" style="fill:pink"/>
+    </g>
+
+    <g id="superBullet">
+      <circle cx="4" cy="3" r="5" style="fill:black"/>
+    </g>
+	
+  </defs>
+
+  <rect width="100%" height="100%" style="stroke-width:4;fill:url(#color_rad)" />
+
+  <rect x="20" y="20" width="600" height="560" style="fill:black;stroke-width:5" />
+
+
+
+    <!--add your score element here-->
+<g transform="translate(640, 120)">
+  <text x="70" y="0"
+   style="fill:black;font-size:25px;font-weight:bold;text-anchor:middle">
+    Score:
+  </text>
+  <rect x="0" y="10" width="140" height="35" style="fill:white" />
+  <text id="score" x="70" y="36"
+   style="fill:black;font-size:25px;text-anchor:middle">0</text>
+</g>
+<g transform="translate(640, 220)">
+  <text x="70" y="0"
+   style="fill:black;font-size:25px;font-weight:bold;text-anchor:middle">
+    Bullet:
+  </text>
+  <rect x="0" y="10" width="140" height="35" style="fill:white" />
+  <text id="bulletNum" x="70" y="36"
+   style="fill:black;font-size:25px;text-anchor:middle">8</text>
+</g>
+
+<g transform="translate(640, 320)">
+  <text x="70" y="0"
+   style="fill:black;font-size:25px;font-weight:bold;text-anchor:middle">
+    Time:
+  </text>
+  <rect x="0" y="10" width="140" height="35" style="fill:white" />
+<rect id="time_bar" x="0" y="10" width="140" height="35" style="fill:purple"/>
+  <text id="timeRemaining" x="70" y="36"
+   style="fill:black;font-size:25px;text-anchor:middle">40</text>
+</g>
+
+  <g style="clip-path:url(#gameareaclip)">
+    <g transform="translate(20,20)">
+      <g id="gamearea" transform="translate(0,0)" width="600" height="560">
+        <rect x="0" y="0" width="600" height="560" style="fill:gray" />
+        <g id="platforms">
+
+<g id="door" style="visibility:hidden" transform="translate(-20,-10)scale(1.178,1.341)">
+		<polygon style="stroke-linejoin:miter; stroke-width:5; fill: pink;"
+        	points="33 33, 50 50, 67 33, 66 25, 62 20, 55 20, 50 25, 45 20, 38 20, 33 25, 33 33">
+<animateTransform type="scale" attributeName="transform" attributeType="XML" dur="4s" values="1;.5;1" repeatCount="indefinite"/>
+</polygon>
+	</g>
+            <rect style="fill: Maroon" width="60" height="20" x="0" y="60"/>
+		            <rect style="fill: Maroon" width="200" height="20" x="300" y="60"/>
+
+            <rect style="fill: Maroon" width="150" height="20" x="0" y="150"/>
+	<rect style="fill: Maroon" width="90" height="20" x="250" y="150"/>
+            <rect style="fill: Maroon" width="70" height="20" x="400" y="150"/>
+
+            <rect style="fill: Maroon" width="300" height="20" x="0" y="400"/>
+            <rect style="fill: Maroon" width="70" height="20" x="450" y="400"/>
+
+            <rect style="fill: Maroon" width="60" height="20" x="0" y="470"/>
+            <rect style="fill: Maroon" width="500" height="20" x="150" y="470"/>
+
+
+            <rect style="fill: Maroon" width="60" height="20" x="0" y="60"/>
+
+            <rect style="fill: Maroon" width="200" height="20" x="50" y="230"/>
+            <rect style="fill: Maroon" width="200" height="20" x="200" y="300"/>
+
+
+
+            <!-- the floor -->
+            <rect style="fill:Maroon" width="600" height="20" x="0" y="540"/>
+
+		<rect type="disappear" style="fill: black" width="70" height="20" x="20" y="300"/>
+            <rect type="disappear" style="fill: black" width="80" height="20" x="520" y="60"/>
+            <rect type ="disappear" style="fill:black" width="120" height="20" x="520" y="300"/>
+
+        </g>
+	<g>
+		<circle id="door1" cx="20" cy="520" r="20" fill="none" stroke="black"/>
+          	<circle cx="20" cy="520" r="10" fill="blue" />
+   		<circle cx="20" cy="520" r="4" fill="black" />
+	</g>
+	<g>
+		<circle id="door2" cx="560" cy="30" r="20" fill="none" stroke="black"/>
+          	<circle cx="560" cy="30" r="10" fill="blue" />
+   		<circle cx="560" cy="30" r="4" fill="black" />
+	</g>
+        <g id="monsters"/>
+	<g id="shooting_monsters"/>
+	<g id="monster_bullet"/>
+	
+	<g id ="hearts"/>
+	
+
+        <g id="bullets_right"/>
+	<g id ="bullets_left"/>
+
+        <g id="player" >
+<use xlink:href="#stick_figure"/>
+        </g>
+      </g>
+
+        <!--add your highscore table here-->
+	<g id="highscoretable" transform="translate(40,10)" style="visibility:hidden">
+  		<rect width="520" height="480"
+   			style="fill:white;stroke:red;stroke-width:2"/>
+  		<text x="260" y="40"
+   			style="fill:red;font-size:30px;font-weight:bold;text-anchor:middle">
+    			High Score Table
+  		</text>
+  			<text id="highscoretext" y="45"
+   				style="font-size: 20px;font-weight:bold"/>
+	</g>
+<g id="restartbutton" onclick="top.restart()" transform="translate(225, 500)" style="visibility:hidden">
+    <rect x="0" y="0" width="140" height="40" style="fill:red;stroke:black;stroke-width:2" />
+    <text x="70" y="28" style="fill:black;font-size:25px;text-anchor:middle">Restart</text>
+  </g>
+
+	<g id="startPanel"	style="visibility:visible">
+		<rect width="600" height="560"
+   			style="fill:white;stroke:red;stroke-width:2"/>
+		<text x="150" y="100"
+   			style="fill:black;font-size:50px;font-weight:bold;text-			anchor:middle">
+    			Bat Hunt
+  		</text>
+<text x="60" y="120" style="font-size:24px">
+	<tspan x="150" dy="1.2em" style="font-size:18px">Author: Weixin Tan(ID:20571524).</tspan>
+
+	<tspan x="60" dy="1.2em">You are a bat hunt.</tspan>
+    <tspan x="60" dy="1.2em">Please hunt all the bat within 40 seconds.</tspan>
+<tspan x="60" dy="1.2em">Collect the heart to add more bullets.</tspan>
+<tspan x="60" dy="1.2em">Use w to jump.</tspan>
+<tspan x="60" dy="1.2em">Use a to move right.</tspan>
+<tspan x="60" dy="1.2em">Use d to move left.</tspan>
+<tspan x="60" dy="1.2em">Use space to shoot.</tspan>
+<tspan x="60" dy="1.2em">Use c to cheat.</tspan>
+<tspan x="60" dy="1.2em">Use v to turn off cheat.</tspan>
+<tspan x="60" dy="1.2em">Playing in zoom mode will be harder,</tspan>
+<tspan x="60" dy="1.2em">but will earn more points.</tspan>
+</text>
+<g id="teleport1">
+</g>
+
+<g id="teleport2"></g>
+<g onclick="top.userContinue()" transform="translate(60, 480)">
+    <rect x="0" y="0" width="140" height="40" style="fill:red;stroke:black;stroke-width:2" />
+    <text x="70" y="28" style="fill:black;font-size:25px;text-anchor:middle">Continue</text>
+  </g>
+	</g>
+
+<g id="GameMode"	style="visibility:hidden">
+		<rect width="600" height="560"
+   			style="fill:white;stroke:red;stroke-width:2"/>
+		<text x="150" y="100"
+   			style="fill:black;font-size:50px;font-weight:bold;text-			anchor:middle">
+    			Game Mode
+  		</text>
+<g onclick="top.setZoom()" transform="translate(225, 150)">
+    <rect x="0" y="0" width="140" height="40" style="fill:red;stroke:black;stroke-width:2" />
+    <text x="70" y="28" style="fill:black;font-size:25px;text-anchor:middle">Zoom</text>
+  </g>
+<g onclick="top.setNormal()" transform="translate(225, 250)">
+    <rect x="0" y="0" width="140" height="40" style="fill:red;stroke:black;stroke-width:2" />
+    <text x="70" y="28" style="fill:black;font-size:25px;text-anchor:middle">Normal</text>
+  </g>
+</g>
+
+
+    </g>
+  </g>
+</svg>
