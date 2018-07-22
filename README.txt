@@ -1,1 +1,0 @@
-This code is tested in Google Chrome. 
